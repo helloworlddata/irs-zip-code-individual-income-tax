@@ -1,0 +1,74 @@
+  STATEFIPS	  The State Federal Information Processing System (FIPS) code	  01-56	  Char
+  STATE	  The State associated with the ZIP code	  Two-digit State abbreviation code	  Char
+  ZIPCODE	  5-digit Zip code	 	  Char
+  AGI_STUB	  Size of adjusted gross income					
+  N1	  Number of returns	 	  Num
+  MARS2	  Number of joint returns	  Filing status is married filing jointly	  Num
+  PREP	  Number of returns with paid preparer's signature	 	  Num
+  N2	  Number of exemptions	  1040:6d	  Num
+  NUMDEP	  Number of dependents	  1040:6c	  Num
+  A00100	  Adjust gross income (AGI) [2]	  1040:37 / 1040A:21 / 1040EZ:4	  Num
+  N00200	  Number of returns with salaries and wages	  1040:7 / 1040A:7 / 1040EZ:1	  Num
+  A00200	  Salaries and wages amount	  1040:7 / 1040A:7 / 1040EZ:1	  Num
+  N00300	  Number of returns with taxable interest	  1040:8a / 1040A:8a / 1040EZ:2	  Num
+  A00300	  Taxable interest amount	  1040:8a / 1040A:8a / 1040EZ:2	  Num
+  N00600	  Number of returns with ordinary dividends 	  1040:9a / 1040A:9a	  Num
+  A00600	  Ordinary dividends amount	  1040:9a / 1040A:9a	  Num
+  N00650	  Number of returns with qualified dividends	  1040:9b / 1040A:9b	  Num
+  A00650	  Qualified dividends amount [3]	  1040:9b / 1040A:9b	  Num
+  N00900	  Number of returns with business or professional net income (less loss)	  1040:12	  Num
+  A00900	  Business or professional net income (less loss) amount	  1040:12	  Num
+  SCHF	  Number of farm returns	  1040:18	  Num
+  N01000	  Number of returns with net capital gain (less loss)	  1040:13  1040A:10	  Num
+  A01000	  Net capital gain (less loss) amount	  1040:13  1040A:10	  Num
+  N01400	  Number of returns with taxable individual retirement 
+arrangements distributions	  1040:15b / 1040:11b	  Num
+  A01400	  Taxable individual retirement arrangements distributions amount	  1040:15b / 1040:11b	  Num
+  N01700	  Number of returns with taxable pensions and annuities	  1040:16b / 1040A:12b	  Num
+  A01700	  Taxable pensions and annuities amount	  1040:16b / 1040A:12b	  Num
+  N02300	  Number of returns with unemployment compensation	  1040:19 / 1040A:13 / 1040EZ:3	  Num
+  A02300	  Unemployment compensation amount [4]	  1040:19 / 1040A:13 / 1040EZ:3	  Num
+  N02500	  Number of returns with taxable Social Security benefits	  1040:20b / 1040A:14b	  Num
+  A02500	  Taxable Social Security benefits amount	  1040:20b / 1040A:14b	  Num
+  N03300	  Number of returns with self-employment retirement plans	  1040:28	  Num
+  A03300	  Self-employment retirement plans amount	  1040:28	  Num
+  N04470	  Number of returns with itemized deductions	  1040:40	  Num
+  A04470	  Total itemized deductions amount	  1040:40	  Num
+  N18425	  Number of returns with State and local income taxes	  Schedule A:5a	  Num
+  A18425	  State and local income taxes amount	  Schedule A:5a	  Num
+  N18450	  Number of returns with State and local general sales tax	  Schedule A:5b	  Num
+  A18450	  State and local general sales tax amount	  Schedule A:5b	  Num
+  N18500	  Number of returns with real estate taxes	  Schedule A:6	  Num
+  A18500	  Real estate taxes amount	  Schedule A:6	  Num
+  N18300	  Number of returns with taxes paid	  Schedule A:9	  Num
+  A18300	  Taxes paid amount	  Schedule A:9	  Num
+  N19300	  Number of returns with mortgage interest paid	  Schedule A:10	  Num
+  A19300	  Mortgage interest paid amount	  Schedule A:10	  Num
+  N19700	  Number of returns with contributions	  Schedule A:19	  Num
+  A19700	  Contributions amount	  Schedule A:19	  Num
+  N04800	  Number of returns with taxable income	  1040:43 / 1040A:27 / 1040EZ:6	  Num
+  A04800	  Taxable income amount	  1040:43 / 1040A:27 / 1040EZ:6	  Num
+  N09600	  Number of returns with alternative minimum tax 	  1040:45	  Num
+  A09600	  Alternative minimum tax amount	  1040:45	  Num
+  N07100	  Number of returns with total tax credits	  1040:54 / 1040A:34	  Num
+  A07100	  Total tax credits amount	  1040:54 / 1040A:34	  Num
+  N07180	  Number of returns with child and dependent care credit	  1040:48 / 1040A:29	  Num
+  A07180	  Child and dependent care credit amount	  1040:48 / 1040A:29	  Num
+  N07220	  Number of returns with child tax credit	  1040:51 / 1040A:33	  Num
+  A07220	  Child tax credit amount	  1040:51 / 1040A:33	  Num
+  N07260	  Number of returns with residential energy tax credit	  1040:52	  Num
+  A07260	  Residential energy tax credit amount	  1040:52	  Num
+  N11070	  Number of returns with additional child tax credit	  1040:65 / 1040A:39	  Num
+  A11070	  Additional child tax credit amount	  1040:65 / 1040A:39	  Num
+  N59660	  Number of returns with earned income credit	  1040:64a / 1040A:38a / 1040EZ:8b	  Num
+  A59660	  Earned income credit amount [5]  	  1040:64a / 1040A:38a / 1040EZ:8b	  Num
+  N59720	  Number of returns with excess earned income credit	  1040:64a / 1040A:38a / 1040EZ:8b	  Num
+  A59720	  Excess earned income credit (refundable) amount [6]  	  1040:64a / 1040A:38a / 1040EZ:8b	  Num
+  N06500	  Number of returns with income tax	  1040:55 / 1040A:35 / 1040EZ:10	  Num
+  A06500	  Income tax amount [7]  	  1040:55 / 1040A:35 / 1040EZ:10	  Num
+  N10300	  Number of returns with tax liability	  1040:61 / 1040A:35 / 1040EZ: 10	  Num
+  A10300	  Total tax liability amount [8]  	  1040:61 / 1040A:35 / 1040EZ: 10	  Num
+  N11901	  Number of returns with tax due at time of filing	  1040:76 / 1040A:45 / 1040EZ:12	  Num
+  A11901	  Tax due at time of filing amount [9]  	  1040:76 / 1040A:45 / 1040EZ:12	  Num
+  N11902	  Number of returns with overpayments refunded	  1040:73 / 1040A:42 / 1040EZ:11a	  Num
+  A11902	  Overpayments refunded amount [10]  	  1040:73 / 1040A:42 / 1040EZ:11a	  Num
